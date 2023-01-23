@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:hint="Enetr Starting Number"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:hint="Enetr Ending Number"
+        android:textSize="20dp"/>
+    <Button
+        android:id="@+id/btnfor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For Loop"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="15dp"
+        android:backgroundTint="@color/teal_700"/>
+    <Button
+        android:id="@+id/btnforeach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Foreach Loop"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="15dp"
+        android:backgroundTint="@color/teal_700"/>
+    <Button
+        android:id="@+id/btnwhile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="While Loop"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="15dp"
+        android:backgroundTint="@color/teal_700"/>
+    <Button
+        android:id="@+id/btndowhile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do While Loop"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="15dp"
+        android:backgroundTint="@color/teal_700"/>
+    <TextView
+        android:id="@+id/reasult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="80dp"/>
+</LinearLayout>
